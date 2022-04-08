@@ -1,0 +1,22 @@
+{
+  "name": "milestone-project-2",
+  "version": "1.0.0",
+  "description": "This site aims to feature the best tried-and-tested hiking routes in the UK, using interactive elements such as Google Maps API, and EmailJS. The site will feature user's reviews of hiking routes whilst raising awareness of the beautiful landscape within the UK. There will also be a feature where the site-owner can offer their service of designing bespoke and tailoured walks for users.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anniefenton/milestone-project-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anniefenton/milestone-project-2/issues"
+  },
+  "homepage": "https://github.com/anniefenton/milestone-project-2#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
