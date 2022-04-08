@@ -38,3 +38,20 @@ As a **traveller** I want:
 - To see hikes available in one area
 - To see the difficulty of hikes and match them to my skill level
 - To explore the option of a tailoured hike service
+
+## Site Features
+
+## Design Choices
+### Wireframes
+
+### Styling
+
+## Testing
+### Manual - testing user stories
+### Automated - building with tests
+
+## Technologies Used
+
+## Deployment
+
+## Credits
