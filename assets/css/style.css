@@ -1,0 +1,10 @@
+/*----------------Nav-bar--*/
+
+#logo {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.nav-text {
+    text-align: center;
+}
