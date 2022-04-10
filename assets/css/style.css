@@ -132,3 +132,32 @@
 .fa-solid {
   color: #b8e7e9;
 }
+
+/*--------------------------footer--*/
+
+.footer-row {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.footer-brand {
+  text-align: end;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+  color: rgb(120, 120, 120);
+}
+
+.footer-text {
+  font-family: 'Noto Sans', sans-serif;
+  color: rgb(120, 120, 120);
+  font-size: 1.5em;
+}
+
+.fa-brands {
+  color: #b8e7e9;
+  font-size: larger;
+}
+
+.footer-border {
+  border-right: 2px solid rgb(209, 206, 206);
+}
