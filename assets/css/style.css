@@ -199,3 +199,17 @@
 .fa-sustainability {
   color: rgb(182, 223, 182);
 }
+
+#countryside-code {
+  font-family: 'Nunito Sans', sans-serif;
+  color: rgb(182, 223, 182);
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#code-link {
+  font-family: 'Nunito Sans', sans-serif;
+  color: rgb(182, 223, 182);
+  text-decoration: none;
+  text-align: center;
+}
