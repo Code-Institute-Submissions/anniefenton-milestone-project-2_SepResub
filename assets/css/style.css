@@ -25,6 +25,12 @@
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .nav-text {
+    font-size: 0.5em;
+  }
+}
+
 /*-------------------index.html--*/
 
 /*-------------------https://www.w3schools.com/howto/howto_css_image_text.asp--*/
@@ -151,6 +157,15 @@
   font-family: 'Noto Sans', sans-serif;
   color: rgb(120, 120, 120);
   font-size: 1.5em;
+}
+
+@media only screen and (max-width: 450px) {
+  .footer-brand {
+    font-size: 1em;
+  }
+  .footer-text {
+    font-size: 1em;
+  }
 }
 
 .fa-brands {
