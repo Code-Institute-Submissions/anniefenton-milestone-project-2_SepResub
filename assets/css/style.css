@@ -184,3 +184,18 @@
     font-size: 2.5em;
   }
 }
+
+.sustainability-text {
+  font-family: 'Noto Sans', sans-serif;
+  color: rgb(120, 120, 120);
+  font-size: 1.3em;
+  text-align: center;
+}
+
+#sustainability-row {
+  padding-bottom: 2em;
+}
+
+.fa-sustainability {
+  color: rgb(182, 223, 182);
+}
