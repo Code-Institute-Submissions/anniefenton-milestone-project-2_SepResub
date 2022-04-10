@@ -60,14 +60,15 @@
   padding-bottom: 1em;    
   text-align: center;
   font-family: 'Playfair Display', serif;
-  font-size: 1.7em;
+  font-size: 3em;
   color: rgb(120, 120, 120);
 }
 
 .body-text {
   font-family: 'Noto Sans', sans-serif;
-  padding: 12px 20px;
-  font-size: 1em;
+  padding: 12px 40px;
+  font-size: 2em;
+  text-align: center;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -75,7 +76,14 @@
     padding-left: 200px;
     padding-right: 200px;
   }
+}
+
+@media only screen and (max-width: 500px) {
+  .body-text {
+    font-size: 1.5em;
+  }
+
   .header-row {
-    
+    font-size: 1.7em;
   }
 }
