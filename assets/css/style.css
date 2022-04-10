@@ -201,21 +201,43 @@
 }
 
 #countryside-code {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   color: rgb(182, 223, 182);
   text-align: center;
   font-size: 1.5em;
 }
 
 #code-link {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   color: rgb(182, 223, 182);
   text-decoration: none;
   text-align: center;
 }
 
+/*------------------------------------Offer--*/
+
 @media only screen and (max-width: 450px) {
   #designed {
     font-size: 3em;
+  }
+}
+
+#offer {
+  font-family: 'Noto Sans', sans-serif;
+  color: rgb(120, 120, 120);
+  font-size: 2em;
+  text-align: center;
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 850px) {
+  #offer {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #offer {
+    font-size: 1em;
   }
 }
