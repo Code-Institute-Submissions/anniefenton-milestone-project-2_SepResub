@@ -67,7 +67,7 @@
 .body-text {
   font-family: 'Noto Sans', sans-serif;
   padding: 12px 40px;
-  font-size: 2em;
+  font-size: 1.7em;
   text-align: center;
 }
 
@@ -78,12 +78,40 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .body-text {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   .header-row {
     font-size: 1.7em;
+  }
+}
+
+#secondary {
+  max-width: 100%;
+}
+
+/*--https://www.w3schools.com/howto/howto_css_image_text.asp--*/
+#centered-secondary {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Playfair Display', serif;
+  font-size: 4em;
+}
+
+/*--*/
+
+@media only screen and (max-width: 600px) {
+  #secondary-text {
+    font-size: 0.4em;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  #secondary-text {
+    font-size: 0.7em;
   }
 }
