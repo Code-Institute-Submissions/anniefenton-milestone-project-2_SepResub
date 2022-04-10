@@ -66,4 +66,16 @@
 
 .body-text {
   font-family: 'Noto Sans', sans-serif;
+  padding: 12px 20px;
+  font-size: 1em;
+}
+
+@media only screen and (min-width: 1000px) {
+  .body-text {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .header-row {
+    
+  }
 }
