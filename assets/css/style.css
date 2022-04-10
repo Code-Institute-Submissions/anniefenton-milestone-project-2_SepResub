@@ -122,3 +122,9 @@
   text-align: center;
   padding-top: 2em;
 }
+
+.review-text {
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  padding: 1em;
+}
