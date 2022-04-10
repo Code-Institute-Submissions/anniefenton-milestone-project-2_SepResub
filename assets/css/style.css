@@ -213,3 +213,9 @@
   text-decoration: none;
   text-align: center;
 }
+
+@media only screen and (max-width: 450px) {
+  #designed {
+    font-size: 3em;
+  }
+}
