@@ -264,3 +264,11 @@ form {
   color: #b8e7e9;
   border: 1px solid #b8e7e9;
 }
+
+/*-----------------------------Hikes--*/
+
+#map {
+  height: 400px;
+  width: 100%;
+  background-color: gainsboro;
+}

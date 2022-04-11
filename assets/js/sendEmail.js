@@ -1,3 +1,5 @@
+/*-----------------------------------Created from help with Code Institute video--*/
+
 function sendMail(contactForm) {
     emailjs.send("service_kzt2xta","trek-ahead", {
         "from_name": contactForm.name.value,
