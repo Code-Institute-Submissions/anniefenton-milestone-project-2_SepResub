@@ -9,6 +9,12 @@
     <script src="https://kit.fontawesome.com/5951528ae0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Trek Ahead.</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+           emailjs.init("HReCvzB3xhQUdsqo2");
+        })();
+    </script>
 </head>
 <body>
 <!---------------------------------------------Navigation bar-->
@@ -96,7 +102,8 @@
                 </div>
             </div>
         </div>
-        <form class="">
+<!---------------------------------------------------Form-->        
+        <form onsubmit="return sendMail(this);">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-2"></div>
@@ -149,8 +156,8 @@
                         </div>
                         <br>
                         <div class="mb-3">
-                            <label for="name" class="form-label">I want to hike in this area:</label>
-                            <input type="text" class="form-control" id="name" placeholder="Location (in the UK)">
+                            <label for="location" class="form-label">I want to hike in this area:</label>
+                            <input type="text" class="form-control" id="location" placeholder="Location (in the UK)">
                         </div>
                         <br>
                         <p>I am a(n):</p>
@@ -174,8 +181,8 @@
                         </div>
                         <br>
                         <div class="mb-3">
-                            <label for="textarea" class="form-label">What else would you like us to know?</label>
-                            <textarea class="form-control" id="further-information placeholder="Your full name"></textarea>
+                            <label for="further-information class="form-label">What else would you like us to know?</label>
+                            <textarea class="form-control" id="further-information" name="further-information" placeholder="Any further information"></textarea>
                             </div>
                         <br>
                         <button type="submit" class="btn">Submit</button>
@@ -186,7 +193,7 @@
         </form>
     </section>
     <!------------------------------------------Footer-->
-    <section>
+    <footer>
         <div class="container-fluid">
             <div class="row footer-row">
                 <div class="col footer-border">
@@ -202,5 +209,6 @@
                 </div>
             </div>
         </div>
-    </section>
+    </footer>
+  <script src="assets/js/sendEmail.js"></script>
 </body>

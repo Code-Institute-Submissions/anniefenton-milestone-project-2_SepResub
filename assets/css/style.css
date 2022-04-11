@@ -259,10 +259,8 @@ form {
   font-family: 'Noto Sans', sans-serif;
   color: rgb(120, 120, 120);
 }
-textarea {
-  margin: auto;
-}
 
-button {
-  text-align: center;
+.btn {
+  color: #b8e7e9;
+  border: 1px solid #b8e7e9;
 }
