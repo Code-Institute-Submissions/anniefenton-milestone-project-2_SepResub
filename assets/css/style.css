@@ -259,3 +259,10 @@ form {
   font-family: 'Noto Sans', sans-serif;
   color: rgb(120, 120, 120);
 }
+textarea {
+  margin: auto;
+}
+
+button {
+  text-align: center;
+}
