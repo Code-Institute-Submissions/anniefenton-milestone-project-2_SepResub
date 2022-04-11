@@ -272,3 +272,22 @@ form {
   width: 100%;
   background-color: gainsboro;
 }
+
+#hikes-info {
+  font-family: 'Noto Sans', sans-serif;
+  color: rgb(120, 120, 120);
+  font-size: 2em;
+  text-align: center;
+}
+
+@media only screen and (max-width: 550px) {
+  #hikes-info {
+    font-size: 1.7em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #hikes-info {
+    font-size: 1em;
+  }
+}
