@@ -1,6 +1,6 @@
 function initMap() {
-    
-    const snowdon = { lat: 53.069, lng: -4.076 };
+
+    const yrWyddfa = { lat: 53.069, lng: -4.076 };
     const cheddarGorge = { lat: 51.286, lng: -2.760 }
     const paveyArk = { lat: 54.461, lng: -3.105 }
     const quiraing = { lat: 57.640, lng: -6.274}
@@ -16,10 +16,10 @@ function initMap() {
         center: paveyArk,
     });
 
-    const markerSnowdon = new google.maps.Marker({
-        position: snowdon,
+    const markerYrWyddfa = new google.maps.Marker({
+        position: yrWyddfa,
         map: map,
-        title: "Snowdon, Wales, Intermediate"
+        title: "Yr Wyddfa (Snowdon), Wales, Intermediate"
     });
 
     const markerCheddarGorge = new google.maps.Marker({
