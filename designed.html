@@ -82,6 +82,59 @@
             </div>
         </div>
     </section>
+    <!------------------------------------------Form-->
+    <section>
+        <div class="container-">
+            <div class="row">
+                <div class="col">
+                    <h1 class="header-row">Interested?</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p id="contact">Get in contact with the form below</p>
+                </div>
+            </div>
+        </div>
+        <form action="">
+            <label for="name">Name</label>
+              <input type="text" name="name" id="name" placeholder="Your full name" required>
+            <br>
+            <label for="email">Email address</label>
+              <input type="email" name="email" id="email" placeholder="Your email address" required>
+            <br>
+            <p>My hike must include:</p>
+            <input type="checkbox" name="pub" id="includes" value="pub">
+              <label for="includes">Pub</label>
+            <input type="checkbox" name="parking" id="includes" value="parking">
+              <label for="includes">Parking</label>
+            <input type="checkbox" name="picnic" id="includes" value="picnic">
+              <label for="includes">Picnic area</label>
+            <input type="checkbox" name="cafe" id="includes" value="cafe">
+              <label for="includes">Cafe</label>
+            <input type="checkbox" name="restaurant" id="includes" value="restaurant">
+              <label for="includes">Restaurant</label>
+            <input type="checkbox" name="other" id="includes" value="other">
+              <label for="includes">Other,</label>
+            <label for="includes">please specify:</label>
+              <input type="text" name="other" id="includes" placeholder="if selected 'other'">
+            <br>
+            <label for="location">I want to hike in this area:</label>
+              <input type="text" name="location" id="location" placeholder="Location (in the UK)" required>
+            <br>
+              <p>I am a(n):</p>
+              <input type="radio" name="experience-level" id="novice">
+                <label for="experience-level">Novice hiker</label>
+              <input type="radio" name="experience-level" id="intermediate">
+                <label for="experience-level">Intermediate hiker</label>
+              <input type="radio" name="experience-level" id="expert">
+                <label for="experience-level">Expert hiker</label>
+            <br>
+            <label for="further-info">What else would you like us to know?</label>
+            <textarea name="further-info" id="further-info" cols="50" rows="10"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
     <!------------------------------------------Footer-->
     <section>
         <div class="container-fluid">
