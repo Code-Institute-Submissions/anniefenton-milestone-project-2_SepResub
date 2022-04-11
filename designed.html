@@ -84,7 +84,18 @@
     </section>
     <!------------------------------------------Form-->
     <section>
-
+        <div class="container-">
+            <div class="row">
+                <div class="col">
+                    <h1 class="header-row">Interested?</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p id="contact">Get in contact with the form below</p>
+                </div>
+            </div>
+        </div>
         <form class="">
             <div class="container-fluid">
                 <div class="row">
@@ -92,13 +103,14 @@
                     <div class="col">
                         <div class="mb-3">
                         <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name" placeholder="Your full name">
+                        <input type="text" class="form-control" id="name" placeholder="Your full name" required>
                         </div>
                         <div class="mb-3">
                         <label for="email" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="email" placeholder="Your email address">
+                        <input type="email" class="form-control" id="email" placeholder="Your email address" required>
                         </div>
                         <br>
+                        <p>My hike must include:</p>
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="parking" id="includes">
                             <label class="form-check-label" for="includes">
@@ -161,89 +173,17 @@
                             </label>
                         </div>
                         <br>
-                        <div class="input-group">
-                            <span class="input-group-text">Further information</span>
-                            <textarea class="form-control" aria-label="further-information"></textarea>
-                        </div>
+                        <div class="mb-3">
+                            <label for="textarea" class="form-label">What else would you like us to know?</label>
+                            <textarea class="form-control" id="further-information placeholder="Your full name"></textarea>
+                            </div>
                         <br>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn">Submit</button>
                     </div>
                     <div class="col-2"></div>
                 </div>
             </div>
-            
-          </form>
-
-        <div class="container-">
-            <div class="row">
-                <div class="col">
-                    <h1 class="header-row">Interested?</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <p id="contact">Get in contact with the form below</p>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-2"></div>
-                <div class="col">
-                   <form action="">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" placeholder="Your full name" required>
-                        <br>
-                        <br>
-                        <label for="email">Email address</label>
-                        <input type="email" name="email" id="email" placeholder="Your email address" required>
-                        <br>
-                        <br>
-<!------------------------------------------------------Checkboxes-->
-                        <p>My hike must include:</p>
-                        <input type="checkbox" name="pub" id="includes" value="pub">
-                        <label for="includes">Pub</label>
-                        <input type="checkbox" name="parking" id="includes" value="parking">
-                        <label for="includes">Parking</label>
-                        <input type="checkbox" name="picnic" id="includes" value="picnic">
-                        <label for="includes">Picnic area</label>
-                        <input type="checkbox" name="cafe" id="includes" value="cafe">
-                        <label for="includes">Cafe</label>
-                        <input type="checkbox" name="restaurant" id="includes" value="restaurant">
-                        <label for="includes">Restaurant</label>
-                        <input type="checkbox" name="other" id="includes" value="other">
-                        <label for="includes">Other,</label>
-                        <label for="includes">please specify:</label>
-                        <input type="text" name="other" id="includes" placeholder="if selected 'other'">
-                        <br>
-                        <br>
-<!--------------------------------------------------Radio buttons-->
-                        <label for="location">I want to hike in this area:</label>
-                        <input type="text" name="location" id="location" placeholder="Location (in the UK)" required>
-                        <br>
-                        <br>
-                        <p>I am a(n):</p>
-                        <input type="radio" name="experience-level" id="novice">
-                            <label for="experience-level">Novice hiker</label>
-                        <input type="radio" name="experience-level" id="intermediate">
-                            <label for="experience-level">Intermediate hiker</label>
-                        <input type="radio" name="experience-level" id="expert">
-                            <label for="experience-level">Expert hiker</label>
-                        <br>
-                        <br>
-                        <label for="further-info">What else would you like us to know?</label>
-                        <br>
-                        <br>
-                        <textarea name="further-info" id="further-info" rows="5"></textarea>
-                        <br>
-                        <br>
-                        <button type="submit">Submit</button>
-                    </form> 
-                </div>
-                <div class="col-2"></div>
-            </div>
-        </div>
-        
+        </form>
     </section>
     <!------------------------------------------Footer-->
     <section>
