@@ -19,3 +19,6 @@ function sendMail(contactForm) {
     return false
 }
 
+function callAlert (event) {
+    window.alert('Thanks for getting in touch! We will get back to you shortly');
+}
