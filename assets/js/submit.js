@@ -1,4 +1,5 @@
-function alertBox() {
-    window.alert('Hi!');
+function callAlert() {
+    console.log('');
 };
 
+module.exports = callAlert
