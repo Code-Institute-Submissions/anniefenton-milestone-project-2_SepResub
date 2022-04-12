@@ -1,5 +1,4 @@
 /*-----------------------------------Created from help with Code Institute video--*/
-
 function sendMail(contactForm) {
     emailjs.send("service_kzt2xta","trek-ahead", {
         "from_name": contactForm.name.value,
@@ -8,14 +7,14 @@ function sendMail(contactForm) {
         "location": contactForm.location.value,
         "experience": contactForm.experience-level.value,
         "message": contactForm.further-information.value
-    })
+    }, "HReCvzB3xhQUdsqo2")
     .then(
         function(response) {
-            console.log("SUCCESS", response);
+            console.log("SUCCESS", response.status, response.text);
         },
         function(error) {
             console.log("FAILED", error);
         }
     );
-    return false;
+    return false
 }
