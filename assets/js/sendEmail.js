@@ -22,3 +22,4 @@ function sendMail(contactForm) {
 function callAlert (event) {
     window.alert('Thanks for getting in touch! We will get back to you shortly');
 }
+

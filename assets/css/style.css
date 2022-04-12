@@ -280,7 +280,7 @@ form {
   background-color: gainsboro;
 }
 
-#hikes-info {
+.hikes-info {
   font-family: 'Noto Sans', sans-serif;
   color: rgb(120, 120, 120);
   font-size: 2em;
@@ -288,13 +288,13 @@ form {
 }
 
 @media only screen and (max-width: 550px) {
-  #hikes-info {
+  .hikes-info {
     font-size: 1.7em;
   }
 }
 
 @media only screen and (max-width: 400px) {
-  #hikes-info {
+  .hikes-info {
     font-size: 1em;
   }
 }
@@ -307,4 +307,18 @@ form {
   text-align: center;
   margin: 1em;
   font-family: 'Noto Sans', sans-serif;
+}
+
+#reviews-info {
+  font-family: 'Playfair Display', serif;
+  color: rgb(120, 120, 120);
+  font-size: 3em;
+  text-align: center;
+  padding-top: 1em;
+}
+
+@media only screen and (max-width: 450px) {
+  #reviews-info {
+    font-size: 2em
+  }
 }
