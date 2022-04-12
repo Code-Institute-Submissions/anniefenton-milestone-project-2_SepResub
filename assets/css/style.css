@@ -291,3 +291,12 @@ form {
     font-size: 1em;
   }
 }
+
+#difficulty-row {
+  padding-bottom: 2em;
+}
+
+.card {
+  text-align: center;
+  margin: 1em;
+}

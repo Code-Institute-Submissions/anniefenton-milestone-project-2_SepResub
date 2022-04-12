@@ -60,7 +60,7 @@
                     <h1 class="header-row">Our difficulty ratings</h1>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="difficulty-row">
                 <div class="col-sm-6 col-md-4">
                     <h2 class="review-name"><i class="fa-solid fa-leaf"></i> Novice</h2>
                     <p class="review-text">
@@ -81,6 +81,7 @@
                 </div>
             </div>
     </section>
+<!--------------------------------------------Route cards-->
     <section>
         <div class="overlay container-fluid">
             <div class="row">
@@ -95,101 +96,84 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                       <div class="card-body">
                       <h5 class="card-title">Yr Wyddfa (Snowdon)</h5>
                       <h6 class="card-subtitle mb-2 text-muted">Wales - Intermediate</h6>
                       <p class="card-text">The largest mountain in Wales situated in Snowdonia. Surrounded by beautiful scenery and lovely wild swimming spots.</p>
-                      <a href="https://www.visitsnowdonia.info/snowdon-walking-routes" target="_blank" class="card-link">Route information</a>
+                      <a href="https://www.visitsnowdonia.info/snowdon-walking-routes" target="_blank" class="btn">Route information</a>
+                      </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                       <div class="card-body">
                       <h5 class="card-title">Cheddar Gorge</h5>
                       <h6 class="card-subtitle mb-2 text-muted">England - Novice</h6>
                       <p class="card-text">A quirky little route featuring gorges and caves. The town of Cheddar is also worth a visit</p>
-                      <a href="https://www.nationaltrust.org.uk/cheddar-gorge/trails/cheddar-gorge-walk" target="_blank" class="card-link">Route information</a>
+                      <a href="https://www.nationaltrust.org.uk/cheddar-gorge/trails/cheddar-gorge-walk" target="_blank" class="btn">Route information</a>
                       </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                       <div class="card-body">
                       <h5 class="card-title">Pavey Ark (Jack's Rake)</h5>
                       <h6 class="card-subtitle mb-2 text-muted">England - Expert</h6>
                       <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ducimus dicta amet atque iure dolor perspiciatis natus consequatur officia perferendis impedit tenetur quia quo porro, pariatur maxime quidem, quis minima.</p>
-                      <a href="http://english-lake-district.info/central-fells/pavey-ark.html" target="_blank" class="card-link">Route information</a>
+                      <a href="http://english-lake-district.info/central-fells/pavey-ark.html" target="_blank" class="btn">Route information</a>
                       </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                       <div class="card-body">
                       <h5 class="card-title">The Quiraing</h5>
                       <h6 class="card-subtitle mb-2 text-muted">Scotland - Intermediate</h6>
                       <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ducimus dicta amet atque iure dolor perspiciatis natus consequatur officia perferendis impedit tenetur quia quo porro, pariatur maxime quidem, quis minima.</p>
-                      <a href="https://www.isleofskye.com/skye-guide/top-ten-skye-walks/the-quiraing" target="_blank" class="card-link">Route information</a>
+                      <a href="https://www.isleofskye.com/skye-guide/top-ten-skye-walks/the-quiraing" target="_blank" class="btn">Route information</a>
                       </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                       <div class="card-body">
                       <h5 class="card-title">The Giant's Causeway</h5>
                       <h6 class="card-subtitle mb-2 text-muted">Ireland - Novice</h6>
                       <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ducimus dicta amet atque iure dolor perspiciatis natus consequatur officia perferendis impedit tenetur quia quo porro, pariatur maxime quidem, quis minima.</p>
-                      <a href="https://www.nationaltrust.org.uk/giants-causeway" target="_blank" class="card-link">Route information</a>
+                      <a href="https://www.nationaltrust.org.uk/giants-causeway" target="_blank" class="btn">Route information</a>
                       </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                       <div class="card-body">
                       <h5 class="card-title">The South Downs Way</h5>
                       <h6 class="card-subtitle mb-2 text-muted">England - Novice</h6>
                       <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ducimus dicta amet atque iure dolor perspiciatis natus consequatur officia perferendis impedit tenetur quia quo porro, pariatur maxime quidem, quis minima.</p>
-                      <a href="https://southdownsway.org/" target="_blank" class="card-link">Route information</a>
+                      <a href="https://southdownsway.org/" target="_blank" class="btn">Route information</a>
                       </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                       <div class="card-body">
                       <h5 class="card-title">Carrauntoohil</h5>
                       <h6 class="card-subtitle mb-2 text-muted">Ireland - Expert</h6>
                       <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ducimus dicta amet atque iure dolor perspiciatis natus consequatur officia perferendis impedit tenetur quia quo porro, pariatur maxime quidem, quis minima.</p>
-                      <a href="https://www.kerryclimbing.ie/activities/guided-carrauntoohil-ascents/" target="_blank" class="card-link">Route information</a>
+                      <a href="https://www.kerryclimbing.ie/activities/guided-carrauntoohil-ascents/" target="_blank" class="btn">Route information</a>
                       </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                       <div class="card-body">
                       <h5 class="card-title">Pen Y Fan</h5>
                       <h6 class="card-subtitle mb-2 text-muted">Wales - Novice</h6>
                       <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ducimus dicta amet atque iure dolor perspiciatis natus consequatur officia perferendis impedit tenetur quia quo porro, pariatur maxime quidem, quis minima.</p>
-                      <a href="https://www.visitwales.com/things-do/adventure-and-activities/walking/crowning-glory-4-ways-walk-pen-y-fan" target="_blank" class="card-link">Route information</a>
+                      <a href="https://www.visitwales.com/things-do/adventure-and-activities/walking/crowning-glory-4-ways-walk-pen-y-fan" target="_blank" class="btn">Route information</a>
                       </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                       <div class="card-body">
-                      <h5 class="card-title">Ben Nevis</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">Scotland - Expert</h6>
-                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ducimus dicta amet atque iure dolor perspiciatis natus consequatur officia perferendis impedit tenetur quia quo porro, pariatur maxime quidem, quis minima.</p>
-                      <a href="https://www.visitscotland.com/see-do/iconic-scotland/ben-nevis/#article-page-2" target="_blank" class="card-link">Route information</a>
+                        <h5 class="card-title">Ben Nevis</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Scotland - Expert</h6>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ducimus dicta amet atque iure dolor perspiciatis natus consequatur officia perferendis impedit tenetur quia quo porro, pariatur maxime quidem, quis minima.</p>
+                        <a href="https://www.visitscotland.com/see-do/iconic-scotland/ben-nevis/#article-page-2" target="_blank" class="btn">Route information</a>
                       </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card">
                       <div class="card-body">
-                      <h5 class="card-title">Lud's Church</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">England - Novice</h6>
-                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ducimus dicta amet atque iure dolor perspiciatis natus consequatur officia perferendis impedit tenetur quia quo porro, pariatur maxime quidem, quis minima.</p>
-                      <a href="https://www.visitpeakdistrict.com/things-to-do/luds-church-p748971" target="_blank" class="card-link">Route information</a>
+                        <h5 class="card-title">Lud's Church</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">England - Novice</h6>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate ducimus dicta amet atque iure dolor perspiciatis natus consequatur officia perferendis impedit tenetur quia quo porro, pariatur maxime quidem, quis minima.</p>
+                        <a href="https://www.visitpeakdistrict.com/things-to-do/luds-church-p748971" target="_blank" class="btn">Route information</a>
                       </div>
                     </div>
                 </div>
