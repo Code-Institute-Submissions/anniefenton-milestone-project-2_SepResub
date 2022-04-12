@@ -102,7 +102,7 @@
             </div>
         </div>
 <!---------------------------------------------------Form-->        
-        <form onsubmit="sendMail();">
+        <form onsubmit="sendMail(this); return false">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-2"></div>
@@ -161,19 +161,19 @@
                         <br>
                         <p>I am a(n):</p>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="experience-level" id="novice">
+                            <input class="form-check-input" type="radio" name="experience" id="novice">
                             <label class="form-check-label" for="novice">
                             Novice hiker
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="experience-level" id="intermediate">
+                            <input class="form-check-input" type="radio" name="experience" id="intermediate">
                             <label class="form-check-label" for="intermediate">
                             Intermediate hiker
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="experience-level" id="expert">
+                            <input class="form-check-input" type="radio" name="experience" id="expert">
                             <label class="form-check-label" for="intermediate">
                             Expert hiker
                             </label>
@@ -181,7 +181,7 @@
                         <br>
                         <div class="mb-3">
                             <label for="further-information class="form-label">What else would you like us to know?</label>
-                            <textarea class="form-control" id="further-information" name="further-information" placeholder="Any further information"></textarea>
+                            <textarea class="form-control" id="further-information" name="furtherInformation" placeholder="Any further information"></textarea>
                         </div>
                         <br>
                         <button type="submit" class="btn" id="alert">Submit</button>

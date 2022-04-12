@@ -5,8 +5,8 @@ function sendMail(contactForm) {
         "from_email": contactForm.email.value,
         "includes": contactForm.includes.value,
         "location": contactForm.location.value,
-        "experience": contactForm.experience-level.value,
-        "message": contactForm.further-information.value
+        "experience": contactForm.experience.value,
+        "message": contactForm.furtherInformation.value
     }, "HReCvzB3xhQUdsqo2")
     .then(
         function(response) {
