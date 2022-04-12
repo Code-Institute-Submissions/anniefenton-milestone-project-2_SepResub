@@ -10,6 +10,7 @@ function initMap() {
     const penYFan = { lat: 51.883, lng: -3.436 }
     const benNevis = { lat: 56.796, lng: -5.003}
     const ludsChurch = { lat: 53.187, lng: -2.020 }
+    
 
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 5,
@@ -19,61 +20,71 @@ function initMap() {
     const markerYrWyddfa = new google.maps.Marker({
         position: yrWyddfa,
         map: map,
-        title: "Yr Wyddfa (Snowdon), Wales, Intermediate"
+        title: "Yr Wyddfa (Snowdon), Wales, Intermediate",
+        label: "A"
     });
 
     const markerCheddarGorge = new google.maps.Marker({
         position: cheddarGorge,
         map: map,
-        title: "Cheddar Gorge, England, Novice"
+        title: "Cheddar Gorge, England, Novice",
+        label: "B"
     });
 
     const markerPaveyArk = new google.maps.Marker({
         position: paveyArk,
         map: map,
-        title: "Pavey Ark (or Jack's Rake), England, Expert"
+        title: "Pavey Ark (or Jack's Rake), England, Expert",
+        label: "C"
     });
 
     const markerQuiraing = new google.maps.Marker({
         position: quiraing,
         map: map,
-        title: "The Quiraing, Scotland, Intermediate"
+        title: "The Quiraing, Scotland, Intermediate",
+        label: "D"
     });
 
     const markerGiantsCauseway = new google.maps.Marker({
         position: giantsCauseway,
         map: map,
-        title: "The Causeway Coast Path, Northern Ireland, Novice"
+        title: "The Causeway Coast Path, Northern Ireland, Novice",
+        label: "E"
     });
 
     const markerSouthDownsWay = new google.maps.Marker({
         position: southDownsWay,
         map: map,
-        title: "The South Downs Way, England, Novice"
+        title: "The South Downs Way, England, Novice",
+        label: "F"
     });
 
     const markerCarrauntoohil = new google.maps.Marker({
         position: carrauntoohil,
         map: map,
-        title: "Carrauntoohil Hike, Republic of Ireland, Expert"
+        title: "Carrauntoohil Hike, Republic of Ireland, Expert",
+        label: "G"
     });
 
     const markerPenYFan = new google.maps.Marker({
         position: penYFan,
         map: map,
-        title: "Pen Y Fan, Wales, Novice"
+        title: "Pen Y Fan, Wales, Novice",
+        label: "H"
     });
 
     const markerBenNevis = new google.maps.Marker({
         position: benNevis,
         map: map,
-        title: "Ben Nevis, Scotland, Expert"
+        title: "Ben Nevis, Scotland, Expert",
+        label: "I"
     });
 
     const markerLudsChurch = new google.maps.Marker({
         position: ludsChurch,
         map: map,
-        title: "Lud's Chruch, England, Novice"
+        title: "Lud's Chruch, England, Novice",
+        label: "J"
     });
  }
         
