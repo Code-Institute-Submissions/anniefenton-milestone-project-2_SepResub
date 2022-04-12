@@ -173,6 +173,12 @@
   font-size: larger;
 }
 
+@media only screen and (max-width: 400px) {
+  .fa-brands {
+    font-size: smaller;
+  }
+}
+
 .footer-border {
   border-right: 2px solid rgb(209, 206, 206);
 }
@@ -300,4 +306,5 @@ form {
 .card {
   text-align: center;
   margin: 1em;
+  font-family: 'Noto Sans', sans-serif;
 }
