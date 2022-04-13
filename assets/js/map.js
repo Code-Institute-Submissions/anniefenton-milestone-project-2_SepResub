@@ -1,3 +1,4 @@
+/*----Created by following Google Maps API documentation URL:https://developers.google.com/maps/documentation/javascript/markers--*/
 function initMap() {
 
     const yrWyddfa = { lat: 53.069, lng: -4.076 };
