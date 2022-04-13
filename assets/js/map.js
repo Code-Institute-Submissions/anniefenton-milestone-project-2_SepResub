@@ -2,15 +2,15 @@
 function initMap() {
 
     const yrWyddfa = { lat: 53.069, lng: -4.076 };
-    const cheddarGorge = { lat: 51.286, lng: -2.760 }
-    const paveyArk = { lat: 54.461, lng: -3.105 }
-    const quiraing = { lat: 57.640, lng: -6.274}
-    const giantsCauseway = { lat: 55.231, lng: -6.529 }
-    const southDownsWay = { lat: 50.903, lng: -0.514}
-    const carrauntoohil = { lat: 52.0439, lng: -9.685}
-    const penYFan = { lat: 51.883, lng: -3.436 }
-    const benNevis = { lat: 56.796, lng: -5.003}
-    const ludsChurch = { lat: 53.187, lng: -2.020 }
+    const cheddarGorge = { lat: 51.286, lng: -2.760 };
+    const paveyArk = { lat: 54.461, lng: -3.105 };
+    const quiraing = { lat: 57.640, lng: -6.274 };
+    const giantsCauseway = { lat: 55.231, lng: -6.529 };
+    const southDownsWay = { lat: 50.903, lng: -0.514 };
+    const carrauntoohil = { lat: 52.0439, lng: -9.685};
+    const penYFan = { lat: 51.883, lng: -3.436 };
+    const benNevis = { lat: 56.796, lng: -5.003};
+    const ludsChurch = { lat: 53.187, lng: -2.020 };
     
 
     const map = new google.maps.Map(document.getElementById("map"), {

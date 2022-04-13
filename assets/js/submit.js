@@ -1,5 +1,5 @@
 function callAlert() {
     console.log('');
-};
+}
 
-module.exports = callAlert
+module.exports = callAlert;
