@@ -48,7 +48,7 @@ As a _traveller_ I want:
 
 The main purpose of the home page is to quickly inform the user about the organisation and to outline the different features on the site. Upon entering the site the user will see a hero-image with the organisation's name and brand clearly visible. When scrolling down the user will find out who the organisation are and what they do, as pictured below.
 
-_screenshot about us_
+![Screenshot of 'About Us' section on the Home page](assets/images/about-us.jpg)
 
 User reviews of the site are also be featured in a section separated by a secondary hero-image.
 
@@ -56,7 +56,7 @@ User reviews of the site are also be featured in a section separated by a second
 
 This is the main feature of the _Trek Ahead_ site. At the top of this page is an interactive map with fixed markers that, when hovered over, produce labels that say the hike's name, loction, difficulty level, and time it would take to complete the route. The map is fully scrollable across all devices however the marker labels cannot be seen when using a tablet or mobile device. To counteract this limitation, on the same page underneath 'Routes' there is a list of the featured hiking routes and their corresponding map marker letter, so users will still be able to see the location of the route on the map. 
 
-_screenshot_
+![Screenshot of map and markers on the 'Hikes' page](assets/images/map-marker.jpg)
 
 In the 'Routes' section the route cards display the name, location, difficulty, and time to complete the routes, as on the map. The cards also display a short description of the route, a user review, and  link to further information about the route.
 
@@ -70,7 +70,7 @@ This page has a similar layout to the home page and it's purpose is to educate t
 
 The other interactive feature on this site is on the 'Designed' page. Styled in a similar way as the home and sustainability pages, this section informs the user about the bespoke hiking service the organisation offers. Underneath the 'what we offer' section is a contact form that has been linked with EmailJS so it is fully operational. The 'Name' and 'Email' parts have a _required_ attribute so the form will not send unless they are filled out. Checkboxes and radio boxes are used so teh user can indicate preferences for their hike, as well as their hiking experience level. Once the form has successfully submitted, an alert box pops up to let the user know the form has been submitted. There is also a reset button that lets the user reset the form to a blank version.
 
-_screenshot_
+![Screenshot of alert box after submitting form](assets/images/alert-box.jpg)
 
 Users wishing to submit a hiking review are also instructed to use this contact form. This is to make sure that all enquries submitted by users are not missed by the organisation.
 
@@ -78,7 +78,7 @@ Users wishing to submit a hiking review are also instructed to use this contact 
 
 The navigation bar features the 4 pages of the site and is fully responsive when used on different sized devices. It is fixed, not sticky, so as to not disrupt the fluidiy when scrolling on the pages. When hovered over with the mouse, the text turns black to indicate to the user that they are hovering over that section. Whichever page the user is on, the navigation bar will feature an underline text-decoration. For example, when the user is on 'Hikes' the word 'Hikes' is underlined.
 
-_screenshot_
+![Screenshot of underlined navigation bar page](assets/images/navigation-bar-highlight.jpg)
 
 The footer bar is similar in it's simplicity. On the left side is the brand's name and logo and if clicked, takes the user to the home page. It also features the same hover feature as in the navigation bar. On the right side is the links to the organisations's social media pages. This is the same across all of the site's pages.
 
@@ -130,6 +130,9 @@ The light blue used in the was taken from one of the images using a colour picke
 The developer has used Bootsrap's columns and grids layout options to make the site fully reponsive. Columns and grids are used in all sections of the sites and the site was designed through a mobile-first method.
 
 ## Testing
+
+All internal and external navigation links have been tested on the site. Form validation, the submit, and reset buttons have also been tested. The responsive design has also been tested using the Chrome Developer Tools.
+
 ### **Manual - testing user stories**
 **As a _novice hiker_ I want:**
 
