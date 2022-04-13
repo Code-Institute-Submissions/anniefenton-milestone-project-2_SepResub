@@ -131,7 +131,7 @@ The developer has used Bootsrap's columns and grids layout options to make the s
 
 ## Testing
 
-All internal and external navigation links have been tested on the site. Form validation, the submit, and reset buttons have also been tested. The responsive design has also been tested using the Chrome Developer Tools.
+All internal and external navigation links have been tested on the site. Form validation, the submit, and reset buttons have also been tested. The responsive design has also been tested using the Chrome Developer Tools. All HTML, CSS, and JS files have been passed through code validators and errors have been fixed.
 
 ### **Manual - testing user stories**
 **As a _novice hiker_ I want:**
