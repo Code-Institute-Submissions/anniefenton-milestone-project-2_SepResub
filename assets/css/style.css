@@ -150,7 +150,7 @@
   text-align: end;
   font-family: 'Playfair Display', serif;
   font-size: 1.5em;
-  color: rgb(120, 120, 120);
+  color: rgb(120, 120, 120)
 }
 
 .footer-text {
@@ -183,6 +183,12 @@
   border-right: 2px solid rgb(209, 206, 206);
 }
 
+.footer-link {
+  text-decoration: none;
+  color: rgb(120, 120, 120)
+}
+
+.footer-link:hover {color: black;}
 
 /*----------------------------------Sustainability--*/
 
