@@ -93,6 +93,18 @@ The site emulates simplicity, elegance, and beauty, as reflected in nature. Bold
 
 ### **Wireframes**
 
+Mobile
+
+![Mobile Wireframe design](assets/images/Mobile.png)
+
+Ipad
+
+![Ipad Wireframe design](assets/images/Ipad.png)
+
+Desktop
+
+![Desktop Wireframe design](assets/images/Desktop.png)
+
 ### **Images**
 
 When researching other travel sites the developer liked how beautiful landscape shots were heavily featured across all pages. She wanted to emulate this and so bold hero images are featured across all pages, apart from the hikes page. Images are also used to define sections within the longer pages such as the home and hikes pages. The images chosen are meant to inspire and motivate users to explore their landscapes and go hiking. 
