@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;1,100;1,200&display=swap');
 
-/*----------------Nav-bar--*/
+/*---------------------------------Nav-bar--*/
 
 .nav-text {
     text-decoration: none;
@@ -34,9 +34,9 @@
 .active {
   text-decoration: underline 2px;
 }
-/*-------------------index.html--*/
+/*--------------------------index.html--*/
 
-/*-------------------https://www.w3schools.com/howto/howto_css_image_text.asp--*/
+/*------Overlay of text on Hero-image code from W3 Schools URL:https://www.w3schools.com/howto/howto_css_image_text.asp--*/
 .overlay {
   position: relative;
   text-align: center;
@@ -51,7 +51,7 @@
   font-family: 'Playfair Display', serif;
   font-size: 5em;
 }
-/**/
+/*---End of code from W3 Schools--*/
 
 #hero-image {
   max-width: 100%;
@@ -102,7 +102,7 @@
   background-color: lightsteelblue;
 }
 
-/*--https://www.w3schools.com/howto/howto_css_image_text.asp--*/
+/*---Overlay of text on Hero-image code from W3 Schools URL:https://www.w3schools.com/howto/howto_css_image_text.asp--*/
 #centered-secondary {
   position: absolute;
   top: 50%;
@@ -112,7 +112,7 @@
   font-size: 4em;
 }
 
-/*--*/
+/*--End of code from W3 Schools-*/
 
 @media only screen and (max-width: 700px) {
   #secondary-text {
@@ -148,7 +148,7 @@
   color: #b8e7e9;
 }
 
-/*--------------------------footer--*/
+/*------------------------------------Footer--*/
 
 .footer-row {
   padding-top: 1em;
@@ -199,7 +199,7 @@
 
 .footer-link:hover {color: black;}
 
-/*----------------------------------Sustainability--*/
+/*----------------------------------Sustainability.html--*/
 
 @media only screen and (max-width: 550px) {
   #sustainability {
@@ -236,7 +236,7 @@
   text-align: center;
 }
 
-/*------------------------------------Designed--*/
+/*------------------------------------Designed.html--*/
 
 @media only screen and (max-width: 450px) {
   #designed {
@@ -287,7 +287,7 @@ form {
   border: 1px solid #b8e7e9;
 }
 
-/*-----------------------------Hikes--*/
+/*-----------------------------------Hikes.html--*/
 
 #map {
   height: 500px;
