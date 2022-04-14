@@ -1,4 +1,43 @@
-# Trek Around 
+# Trek Ahead.
+
+![Diagram of responsive website design](assets/images/responsive.jpg)
+
+## Table of contents
+### [UX](https://github.com/anniefenton/milestone-project-2#ux)
+- [Project goals](https://github.com/anniefenton/milestone-project-2#project-goals)
+- [User goals](https://github.com/anniefenton/milestone-project-2#user-goals)
+- [User stories](https://github.com/anniefenton/milestone-project-2#user-stories)
+### [Site Features](https://github.com/anniefenton/milestone-project-2#project-goals)
+- [Home page](https://github.com/anniefenton/milestone-project-2#home-page)
+- [Hikes page](https://github.com/anniefenton/milestone-project-2#hikes-page)
+- [Sustainability page](https://github.com/anniefenton/milestone-project-2#sustainability-page)
+- [Designed page](https://github.com/anniefenton/milestone-project-2#designed-page)
+- [Navigation and Footer bar](https://github.com/anniefenton/milestone-project-2#navigation-and-footer-bar)
+### [Design choices](https://github.com/anniefenton/milestone-project-2#design-choices)
+- [Wireframes](https://github.com/anniefenton/milestone-project-2#wireframes)
+- [Images](https://github.com/anniefenton/milestone-project-2#images)
+- [Font](https://github.com/anniefenton/milestone-project-2#font)
+- [Text](https://github.com/anniefenton/milestone-project-2#text)
+- [Colour](https://github.com/anniefenton/milestone-project-2#colour)
+- [Columns](https://github.com/anniefenton/milestone-project-2#columns)
+### [Testing](https://github.com/anniefenton/milestone-project-2#testing)
+- [Manual - testing user stories](https://github.com/anniefenton/milestone-project-2#manual---testing-user-stories)
+- [Automated - building with tests](https://github.com/anniefenton/milestone-project-2#automated---building-with-tests)
+- [Bugs encountered](https://github.com/anniefenton/milestone-project-2#bugs-encountered)
+### [Technologies Used](https://github.com/anniefenton/milestone-project-2#technologies-used)
+- [Languages](https://github.com/anniefenton/milestone-project-2#languages)
+- [Programmes, Libraries, and Frameworks](https://github.com/anniefenton/milestone-project-2#programmes-libraries-and-frameworks)
+### [Deployment](https://github.com/anniefenton/milestone-project-2#deployment)
+- [How to run this project locally](https://github.com/anniefenton/milestone-project-2#how-to-run-this-project-locally)
+- [Forking the GitHub repository](https://github.com/anniefenton/milestone-project-2#forking-the-github-repository)
+- [Cloning a repository](https://github.com/anniefenton/milestone-project-2#cloning-a-repository)
+### [Credits](https://github.com/anniefenton/milestone-project-2#credits)
+- [Media](https://github.com/anniefenton/milestone-project-2#media)
+- [Code](https://github.com/anniefenton/milestone-project-2#code)
+- [Acknowledgements](https://github.com/anniefenton/milestone-project-2#acknowledgements)
+
+
+
 ## UX
 ### **Project Goals**
 
@@ -50,7 +89,7 @@ The main purpose of the home page is to quickly inform the user about the organi
 
 ![Screenshot of 'About Us' section on the Home page](assets/images/about-us.jpg)
 
-User reviews of the site are also be featured in a section separated by a secondary hero-image.
+User reviews of the site are also featured in a section separated by a secondary hero-image. The reviews currently on the page are made-up and have been used to display what that section could look like.
 
 ### **Hikes page**
 
@@ -58,7 +97,7 @@ This is the main feature of the _Trek Ahead_ site. At the top of this page is an
 
 ![Screenshot of map and markers on the 'Hikes' page](assets/images/map-marker.jpg)
 
-In the 'Routes' section the route cards display the name, location, difficulty, and time to complete the routes, as on the map. The cards also display a short description of the route, a user review, and  link to further information about the route.
+In the 'Routes' section the route cards display the name, location, difficulty, and time to complete the routes. The cards also display a short description of the route, a user review, and a link to further information about the route.
 
 Instructions on how to submit a review is also featured on the page as well as the difficulty rating guidelines.
 
@@ -66,9 +105,11 @@ Instructions on how to submit a review is also featured on the page as well as t
 
 This page has a similar layout to the home page and it's purpose is to educate the user about how to care for environments when out hiking. A link to the country-side code is alse featured on the page. 
 
+![Screenshot of counrtyside code on the 'Sustainability' page](assets/images/countryside-code.jpg)
+
 ### **Designed page**
 
-The other interactive feature on this site is on the 'Designed' page. Styled in a similar way as the home and sustainability pages, this section informs the user about the bespoke hiking service the organisation offers. Underneath the 'what we offer' section is a contact form that has been linked with EmailJS so it is fully operational. The 'Name' and 'Email' parts have a _required_ attribute so the form will not send unless they are filled out. Checkboxes and radio boxes are used so teh user can indicate preferences for their hike, as well as their hiking experience level. Once the form has successfully submitted, an alert box pops up to let the user know the form has been submitted. There is also a reset button that lets the user reset the form to a blank version.
+The other interactive feature on this site is on the 'Designed' page. Styled in a similar way as the home and sustainability pages, this section informs the user about the bespoke hiking service the organisation offers. Underneath the 'what we offer' section is a contact form that has been linked with EmailJS so it is fully operational. The 'Name' and 'Email' parts have a _required_ attribute so the form will not send unless they are filled out. Checkboxes and radio boxes are used so the user can indicate preferences for their hike, as well as their hiking experience level. Once the form has successfully submitted, an alert box pops up to let the user know the form has been submitted. There is also a reset button that lets the user reset the form to a blank version.
 
 ![Screenshot of alert box after submitting form](assets/images/alert-box.jpg)
 
@@ -76,11 +117,11 @@ Users wishing to submit a hiking review are also instructed to use this contact 
 
 ### **Navigation and footer bar**
 
-The navigation bar features the 4 pages of the site and is fully responsive when used on different sized devices. It is fixed, not sticky, so as to not disrupt the fluidiy when scrolling on the pages. When hovered over with the mouse, the text turns black to indicate to the user that they are hovering over that section. Whichever page the user is on, the navigation bar will feature an underline text-decoration. For example, when the user is on 'Hikes' the word 'Hikes' is underlined.
+The navigation bar features the 4 pages of the site and is fully responsive when used on different sized devices. It is fixed, not sticky, so as to not disrupt the fluidiy when scrolling on the pages. When hovered over with the mouse, the text turns black to indicate to the user that they are hovering over that section. Whichever page the user is on, the navigation bar will feature an underline text-decoration. For example, when the user is on 'Designed' the word 'Designed' is underlined.
 
 ![Screenshot of underlined navigation bar page](assets/images/navigation-bar-highlight.jpg)
 
-The footer bar is similar in it's simplicity. On the left side is the brand's name and logo and if clicked, takes the user to the home page. It also features the same hover feature as in the navigation bar. On the right side is the links to the organisations's social media pages. This is the same across all of the site's pages.
+The footer bar is similar in it's simplicity. On the left side is the brand's name and logo and if clicked, takes the user to the home page. It also features the same hover feature as in the navigation bar. On the right side are the links to the organisations's social media pages. This is the same across all of the site's pages.
 
 ### **Features left to implement**
 
@@ -89,25 +130,25 @@ The footer bar is similar in it's simplicity. On the left side is the brand's na
 
 ## Design Choices
 
-The site emulates simplicity, elegance, and beauty, as reflected in nature. Bold images are featured alongside small bodies of text so as not to detract from each other. Icons from Font Awesome are used throughout the site to further emphasise what is being written. The overall experience of the site should be informative, refreshing and inspirational
+The site emulates simplicity, elegance, and beauty, as reflected in nature. Bold images are featured alongside small bodies of text so as not to detract from each other. Icons from Font Awesome are used throughout the site to further emphasise what is being written. The overall experience of the site should be informative, refreshing and inspirational.
 
 ### **Wireframes**
 
-Mobile
+#### Mobile
 
 ![Mobile Wireframe design](assets/images/Mobile.png)
 
-Ipad
+#### Ipad
 
 ![Ipad Wireframe design](assets/images/Ipad.png)
 
-Desktop
+#### Desktop
 
 ![Desktop Wireframe design](assets/images/Desktop.png)
 
 ### **Images**
 
-When researching other travel sites the developer liked how beautiful landscape shots were heavily featured across all pages. She wanted to emulate this and so bold hero images are featured across all pages, apart from the hikes page. Images are also used to define sections within the longer pages such as the home and hikes pages. The images chosen are meant to inspire and motivate users to explore their landscapes and go hiking. 
+When researching other travel sites the developer liked how beautiful landscape shots were heavily featured across all pages. She wanted to emulate this and so bold hero images are featured across all pages, apart from the hikes page. Images are also used to define sections within the longer pages such as the 'Home' and 'Hikes' pages. The images chosen are meant to inspire and motivate users to explore their landscapes and go hiking. 
 
 ### **Font**
 
@@ -123,7 +164,7 @@ The text bodies have also been styled in a similar way with consitency in stylin
 
 The font uses a dark grey colour instead of black so as not to make the site feel 'heavy' with the text.
 
-The light blue used in the was taken from one of the images using a colour picker tool. This colour is used in the icons and footer on all pages apart from the sustainability page. The colour used on that page is green and again was taken from the image using a colour picker tool. Green was used to reflect the associations of green with environmental issues. This colour is also used in the footer icons of this page for fluidity.
+The light blue used across the site was taken from one of the images using a colour picker tool. This colour is used in the icons and footer on all pages apart from the 'Sustainability' page. The colour used on that page is green and again was taken from the image using a colour picker tool. Green was used to reflect the associations of green with environmental issues. This colour is also used in the footer icons of this page for fluidity.
 
 ### **Columns**
 
@@ -131,7 +172,7 @@ The developer has used Bootsrap's columns and grids layout options to make the s
 
 ## Testing
 
-All internal and external navigation links have been tested on the site. Form validation, the submit, and reset buttons have also been tested. The responsive design has also been tested using the Chrome Developer Tools. All HTML, CSS, and JS files have been passed through code validators and errors have been fixed.
+All internal and external navigation links have been tested on the site. The interactive map, form validation, the submit, and reset buttons have also been tested. The responsive design has also been tested using the Chrome Developer Tools. All HTML, CSS, and JS files have been passed through code validators and errors have been fixed.
 
 ### **Manual - testing user stories**
 **As a _novice hiker_ I want:**
@@ -154,7 +195,7 @@ The 'Sustainability' page gives a condensed, easy to read, summary of the 'Count
 
 - To gain inspiration and motivation to start hiking safely
 
-The beautiful landscaoe images and user reviews will inspire other users to start hiking and explore hiking areas.
+The beautiful landscape images and user reviews will inspire other users to start hiking and explore hiking areas.
 
 **As an _experienced hiker_ I want:**
 
@@ -225,7 +266,7 @@ Another interesting bug that was resolved was when developing the `callAlert()` 
 - **Google Fonts** for the typography on the whole site
 - **Google Maps API** to create the interactive map with markers on the 'Hikes' page
 - **Jest** for automated testing procedures
-- **Unsplash** for images used in the site
+- **Unsplash** for open-source images used in the site
 
 
 ## Deployment
@@ -254,11 +295,11 @@ Another interesting bug that was resolved was when developing the `callAlert()` 
 
 ### **Media**
 
-The developer would like to thank Jeremy Bishop, Ales Krivec, Tyler Lastovich, Andrea Molina and Ryan Schroeder for their images which were accessed from an open source image site. 
+The developer would like to thank Jeremy Bishop, Ales Krivec, Tyler Lastovich, Andrea Molina and Ryan Schroeder for their images used on the site which were accessed from Unsplash.
 
 ### **Code**
 
-All code, except where credited to other developers, libraries, or frameworks, has been writted by the developer. Credits and URLs have been provided in comments in HTML, CSS, and JS files.
+All code, except where credited to other developers, libraries, or frameworks, has been writted by the developer. Credits and URLs have been provided as comments in the HTML, CSS, and JS files.
 
 ### **Acknowledgements**
 

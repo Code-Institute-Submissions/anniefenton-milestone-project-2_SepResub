@@ -236,6 +236,8 @@
   text-align: center;
 }
 
+#code-link:hover {color: rgb(134, 176, 134);}
+
 /*------------------------------------Designed.html--*/
 
 @media only screen and (max-width: 450px) {
