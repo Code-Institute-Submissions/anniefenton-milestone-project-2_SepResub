@@ -2,36 +2,36 @@
 
 ![Diagram of responsive website design](assets/images/responsive.jpg)
 
-## Table of contents
-### [UX](https://github.com/anniefenton/milestone-project-2#ux)
+## Contents
+### [UX](https://github.com/anniefenton/milestone-project-2#ux-1)
 - [Project goals](https://github.com/anniefenton/milestone-project-2#project-goals)
 - [User goals](https://github.com/anniefenton/milestone-project-2#user-goals)
 - [User stories](https://github.com/anniefenton/milestone-project-2#user-stories)
-### [Site Features](https://github.com/anniefenton/milestone-project-2#project-goals)
+### [Site Features](https://github.com/anniefenton/milestone-project-2#site-features-1)
 - [Home page](https://github.com/anniefenton/milestone-project-2#home-page)
 - [Hikes page](https://github.com/anniefenton/milestone-project-2#hikes-page)
 - [Sustainability page](https://github.com/anniefenton/milestone-project-2#sustainability-page)
 - [Designed page](https://github.com/anniefenton/milestone-project-2#designed-page)
 - [Navigation and Footer bar](https://github.com/anniefenton/milestone-project-2#navigation-and-footer-bar)
-### [Design choices](https://github.com/anniefenton/milestone-project-2#design-choices)
+### [Design choices](https://github.com/anniefenton/milestone-project-2#design-choices-1)
 - [Wireframes](https://github.com/anniefenton/milestone-project-2#wireframes)
 - [Images](https://github.com/anniefenton/milestone-project-2#images)
 - [Font](https://github.com/anniefenton/milestone-project-2#font)
 - [Text](https://github.com/anniefenton/milestone-project-2#text)
 - [Colour](https://github.com/anniefenton/milestone-project-2#colour)
 - [Columns](https://github.com/anniefenton/milestone-project-2#columns)
-### [Testing](https://github.com/anniefenton/milestone-project-2#testing)
+### [Testing](https://github.com/anniefenton/milestone-project-2#testing-1)
 - [Manual - testing user stories](https://github.com/anniefenton/milestone-project-2#manual---testing-user-stories)
 - [Automated - building with tests](https://github.com/anniefenton/milestone-project-2#automated---building-with-tests)
 - [Bugs encountered](https://github.com/anniefenton/milestone-project-2#bugs-encountered)
-### [Technologies Used](https://github.com/anniefenton/milestone-project-2#technologies-used)
+### [Technologies Used](https://github.com/anniefenton/milestone-project-2#technologies-used-1)
 - [Languages](https://github.com/anniefenton/milestone-project-2#languages)
 - [Programmes, Libraries, and Frameworks](https://github.com/anniefenton/milestone-project-2#programmes-libraries-and-frameworks)
-### [Deployment](https://github.com/anniefenton/milestone-project-2#deployment)
+### [Deployment](https://github.com/anniefenton/milestone-project-2#deployment-1)
 - [How to run this project locally](https://github.com/anniefenton/milestone-project-2#how-to-run-this-project-locally)
 - [Forking the GitHub repository](https://github.com/anniefenton/milestone-project-2#forking-the-github-repository)
 - [Cloning a repository](https://github.com/anniefenton/milestone-project-2#cloning-a-repository)
-### [Credits](https://github.com/anniefenton/milestone-project-2#credits)
+### [Credits](https://github.com/anniefenton/milestone-project-2#credits-1)
 - [Media](https://github.com/anniefenton/milestone-project-2#media)
 - [Code](https://github.com/anniefenton/milestone-project-2#code)
 - [Acknowledgements](https://github.com/anniefenton/milestone-project-2#acknowledgements)
@@ -270,7 +270,7 @@ Another interesting bug that was resolved was when developing the `callAlert()` 
 
 
 ## Deployment
-### **How to Run this project locally**
+### **How to run this project locally**
 
 1. Log into GitHub and locate the 'milestone-project-2' repository on the 'anniefenton' account.
 2. Click on the 'Settings' icon at the top of the repository page.
