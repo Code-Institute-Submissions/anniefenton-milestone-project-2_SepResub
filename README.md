@@ -276,7 +276,7 @@ Another interesting bug that was resolved was when developing the `callAlert()` 
 2. Click on the 'Settings' icon at the top of the repository page.
 3. Scroll down the panel on the left-side of the page and click on the 'Pages' section.
 4. Under the 'Source' section, click on the 'None' dropdown button and select 'main'. Then click '/root' in the next drop-down button. Then click 'Save'.
-5. Wait about 10 minutes for the site to be built before clicking on the [link](anniefenton.github.io/milestone-project-2) above in the blue box.
+5. Wait about 10 minutes for the site to be built before clicking on the [link](https://anniefenton.github.io/milestone-project-2) above in the blue box.
 
 ### **Forking the GitHub repository**
 
