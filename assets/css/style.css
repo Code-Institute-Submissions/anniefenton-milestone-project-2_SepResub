@@ -302,6 +302,7 @@ form {
   color: rgb(120, 120, 120);
   font-size: 2em;
   text-align: center;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 550px) {
@@ -315,6 +316,13 @@ form {
     font-size: 1em;
   }
 }
+
+#hikes-link {
+  text-decoration: none;
+  color: rgb(120, 120, 120);
+}
+
+#hikes-link:hover {color: black;}
 
 #difficulty-row {
   padding-bottom: 2em;
