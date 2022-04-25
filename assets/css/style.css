@@ -353,3 +353,12 @@ form {
     font-size: 2em
   }
 }
+
+/*---------------------------404 page--*/
+
+#error-link {
+  text-decoration: none;
+  color: rgb(120, 120, 120)
+}
+
+#error-link:hover {color: black;}
