@@ -239,7 +239,7 @@ The 'Designed' page informs the user of the bespoke service the organisation off
 
 ### **Automated - building with tests**
 
-Automated testing with Jest was used in the development of the `callAlert()` function. This function calls an alert box when the user successfully submits a contact form on the 'Designed' page.
+Automated testing with Jest was used in the development of the `callAlert()` function. This function calls an alert box when the user successfully submits a contact form on the 'Designed' page. With more time the developer would like to fully test that the alert box is successfully called whenever the form has been filled in and the email sent correctly.
 
 ### **Bugs encountered**
 
