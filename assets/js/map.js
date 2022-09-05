@@ -1,4 +1,3 @@
-/*----Created by following Google Maps API documentation URL:https://developers.google.com/maps/documentation/javascript/markers--*/
 function initMap() {
 
     const yrWyddfa = { lat: 53.069, lng: -4.076 };
@@ -22,7 +21,8 @@ function initMap() {
         position: yrWyddfa,
         map: map,
         title: "Yr Wyddfa (Snowdon), Wales, Intermediate, 6 hours",
-        label: "A"
+        label: "A",
+        onclick: href="https://www.visitsnowdonia.info/snowdon-walking-routes"
     });
 
     const markerCheddarGorge = new google.maps.Marker({
