@@ -37,6 +37,11 @@ function initMap() {
         label: "B"
     });
 
+    google.maps.event.addListener(markerCheddarGorge, 'click', function() {
+        var markerYrWyddfa = this;
+        alert(this.title);
+    });   
+
     const markerPaveyArk = new google.maps.Marker({
         position: paveyArk,
         map: map,
@@ -44,11 +49,21 @@ function initMap() {
         label: "C"
     });
 
+    google.maps.event.addListener(markerPaveyArk, 'click', function() {
+        var markerYrWyddfa = this;
+        alert(this.title);
+    });  
+
     const markerQuiraing = new google.maps.Marker({
         position: quiraing,
         map: map,
         title: "The Quiraing, Scotland, Intermediate, 5 hours",
         label: "D"
+    });
+
+    google.maps.event.addListener(markerQuiraing, 'click', function() {
+        var markerYrWyddfa = this;
+        alert(this.title);
     });
 
     const markerGiantsCauseway = new google.maps.Marker({
@@ -58,12 +73,22 @@ function initMap() {
         label: "E"
     });
 
+    google.maps.event.addListener(markerGiantsCauseway, 'click', function() {
+        var markerYrWyddfa = this;
+        alert(this.title);
+    });  
+
     const markerSouthDownsWay = new google.maps.Marker({
         position: southDownsWay,
         map: map,
         title: "The South Downs Way, England, Novice, 2 hours",
         label: "F"
     });
+
+    google.maps.event.addListener(markerSouthDownsWay, 'click', function() {
+        var markerYrWyddfa = this;
+        alert(this.title);
+    });  
 
     const markerCarrauntoohil = new google.maps.Marker({
         position: carrauntoohil,
@@ -72,12 +97,22 @@ function initMap() {
         label: "G"
     });
 
+    google.maps.event.addListener(markerCarrauntoohil, 'click', function() {
+        var markerYrWyddfa = this;
+        alert(this.title);
+    });  
+
     const markerPenYFan = new google.maps.Marker({
         position: penYFan,
         map: map,
         title: "Pen Y Fan, Wales, Novice, 3 hours",
         label: "H"
     });
+
+    google.maps.event.addListener(markerPenYFan, 'click', function() {
+        var markerYrWyddfa = this;
+        alert(this.title);
+    });  
 
     const markerBenNevis = new google.maps.Marker({
         position: benNevis,
@@ -86,11 +121,21 @@ function initMap() {
         label: "I"
     });
 
+    google.maps.event.addListener(markerBenNevis, 'click', function() {
+        var markerYrWyddfa = this;
+        alert(this.title);
+    });  
+
     const markerLudsChurch = new google.maps.Marker({
         position: ludsChurch,
         map: map,
         title: "Lud's Chruch, England, Novice, 1 hour",
         label: "J"
     });
+
+    google.maps.event.addListener(markerLudsChurch, 'click', function() {
+        var markerYrWyddfa = this;
+        alert(this.title);
+    });  
  }
         
