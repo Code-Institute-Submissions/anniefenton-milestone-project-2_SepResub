@@ -17,7 +17,7 @@ function initMap() {
         center: paveyArk,
     });
     
-
+// Yr Wyddfa map information
     const markerYrWyddfa = new google.maps.Marker({
         position: yrWyddfa,
         map: map,
@@ -25,14 +25,14 @@ function initMap() {
         label: "A",
     });
 
-    var infoWindow = new google.maps.InfoWindow({
+    var infoYrWyddfa = new google.maps.InfoWindow({
         content: "<div style='float:left'><img style='height:100px' src='assets/images/snowden.jpg'></div><div style='float:right; padding: 10px;'><b>Yr Wyddfa (Snowden)</b><br>Wales<br>Intermediate<br>6 hours</div>"
     });
 
     google.maps.event.addListener(markerYrWyddfa, 'click', function() {
-        infoWindow.open(map, markerYrWyddfa)
+        infoYrWyddfa.open(map, markerYrWyddfa)
     });   
-
+// Cheddar Gorge map information
     const markerCheddarGorge = new google.maps.Marker({
         position: cheddarGorge,
         map: map,
@@ -40,11 +40,15 @@ function initMap() {
         label: "B"
     });
 
-    google.maps.event.addListener(markerCheddarGorge, 'click', function() {
-        var markerYrWyddfa = this;
-        alert(this.title);
-    });   
+    var infoCheddar = new google.maps.InfoWindow({
+        content: "<div style='float:left'><img style='height:100px' src='assets/images/cheddar.jpg'></div><div style='float:right; padding: 10px;'><b>Cheddar Gorge</b><br>England<br>Novice<br>2 hours</div>"
+    });
 
+    google.maps.event.addListener(markerCheddarGorge, 'click', function() {
+        infoCheddar.open(map, markerCheddarGorge)
+    });
+
+// Pavey Ark map information
     const markerPaveyArk = new google.maps.Marker({
         position: paveyArk,
         map: map,
@@ -52,11 +56,15 @@ function initMap() {
         label: "C"
     });
 
+    var infoPavey = new google.maps.InfoWindow({
+        content: "<div style='float:left'><img style='height:100px' src='assets/images/pavey.jpg'></div><div style='float:right; padding: 10px;'><b>Pavey Ark (or Jack's Rake)</b><br>England<br>Expert<br>8 hours</div>"
+    });
+
     google.maps.event.addListener(markerPaveyArk, 'click', function() {
-        var markerYrWyddfa = this;
-        alert(this.title);
+        infoPavey.open(map, markerPaveyArk)
     });  
 
+// Quiraing map information
     const markerQuiraing = new google.maps.Marker({
         position: quiraing,
         map: map,
@@ -64,11 +72,15 @@ function initMap() {
         label: "D"
     });
 
-    google.maps.event.addListener(markerQuiraing, 'click', function() {
-        var markerYrWyddfa = this;
-        alert(this.title);
+    var infoQuiraing = new google.maps.InfoWindow({
+        content: "<div style='float:left'><img style='height:100px' src='assets/images/pavey.jpg'></div><div style='float:right; padding: 10px;'><b>Quiraing</b><br>England<br>Expert<br>8 hours</div>"
     });
 
+    google.maps.event.addListener(markerQuiraing, 'click', function() {
+        infoQuiraing.open(map, markerQuiraing)
+    }); 
+
+// Giants Causeway map information
     const markerGiantsCauseway = new google.maps.Marker({
         position: giantsCauseway,
         map: map,
@@ -76,23 +88,31 @@ function initMap() {
         label: "E"
     });
 
-    google.maps.event.addListener(markerGiantsCauseway, 'click', function() {
-        var markerYrWyddfa = this;
-        alert(this.title);
-    });  
+    var infoGiants = new google.maps.InfoWindow({
+        content: "<div style='float:left'><img style='height:100px' src='assets/images/pavey.jpg'></div><div style='float:right; padding: 10px;'><b>Giants Causeway</b><br>England<br>Expert<br>8 hours</div>"
+    });
 
+    google.maps.event.addListener(markerGiantsCauseway, 'click', function() {
+        infoGiants.open(map, markerGiantsCauseway)
+    });
+
+// South Downs Way map information
     const markerSouthDownsWay = new google.maps.Marker({
         position: southDownsWay,
         map: map,
         title: "The South Downs Way, England, Novice, 2 hours",
         label: "F"
     });
+    
+    var infoSouth = new google.maps.InfoWindow({
+        content: "<div style='float:left'><img style='height:100px' src='assets/images/pavey.jpg'></div><div style='float:right; padding: 10px;'><b>South Downs Way</b><br>England<br>Expert<br>8 hours</div>"
+    });
 
     google.maps.event.addListener(markerSouthDownsWay, 'click', function() {
-        var markerYrWyddfa = this;
-        alert(this.title);
-    });  
+        infoSouth.open(map, markerSouthDownsWay)
+    });
 
+// Caurauntoohil map information
     const markerCarrauntoohil = new google.maps.Marker({
         position: carrauntoohil,
         map: map,
@@ -100,11 +120,15 @@ function initMap() {
         label: "G"
     });
 
-    google.maps.event.addListener(markerCarrauntoohil, 'click', function() {
-        var markerYrWyddfa = this;
-        alert(this.title);
-    });  
+    var infoCarr = new google.maps.InfoWindow({
+        content: "<div style='float:left'><img style='height:100px' src='assets/images/pavey.jpg'></div><div style='float:right; padding: 10px;'><b>Carrauntoohil</b><br>England<br>Expert<br>8 hours</div>"
+    });
 
+    google.maps.event.addListener(markerCarrauntoohil, 'click', function() {
+        infoCarr.open(map, markerCarrauntoohil)
+    });
+
+// Pen Y Fan map information
     const markerPenYFan = new google.maps.Marker({
         position: penYFan,
         map: map,
@@ -112,11 +136,15 @@ function initMap() {
         label: "H"
     });
 
-    google.maps.event.addListener(markerPenYFan, 'click', function() {
-        var markerYrWyddfa = this;
-        alert(this.title);
-    });  
+    var infoPen = new google.maps.InfoWindow({
+        content: "<div style='float:left'><img style='height:100px' src='assets/images/pavey.jpg'></div><div style='float:right; padding: 10px;'><b>Pen Y Fan</b><br>England<br>Expert<br>8 hours</div>"
+    });
 
+    google.maps.event.addListener(markerPenYFan, 'click', function() {
+        infoPen.open(map, markerPenYFan)
+    }); 
+
+// Ben Navid map information
     const markerBenNevis = new google.maps.Marker({
         position: benNevis,
         map: map,
@@ -124,11 +152,15 @@ function initMap() {
         label: "I"
     });
 
-    google.maps.event.addListener(markerBenNevis, 'click', function() {
-        var markerYrWyddfa = this;
-        alert(this.title);
-    });  
+    var infoBen = new google.maps.InfoWindow({
+        content: "<div style='float:left'><img style='height:100px' src='assets/images/pavey.jpg'></div><div style='float:right; padding: 10px;'><b>Ben Nevis</b><br>England<br>Expert<br>8 hours</div>"
+    });
 
+    google.maps.event.addListener(markerBenNevis, 'click', function() {
+        infoBen.open(map, markerBenNevis)
+    }); 
+
+// Luds Church map information
     const markerLudsChurch = new google.maps.Marker({
         position: ludsChurch,
         map: map,
@@ -136,9 +168,12 @@ function initMap() {
         label: "J"
     });
 
+    var infoLud = new google.maps.InfoWindow({
+        content: "<div style='float:left'><img style='height:100px' src='assets/images/pavey.jpg'></div><div style='float:right; padding: 10px;'><b>Lud's Church</b><br>England<br>Expert<br>8 hours</div>"
+    });
+
     google.maps.event.addListener(markerLudsChurch, 'click', function() {
-        var markerYrWyddfa = this;
-        alert(this.title);
-    });  
+        infoLud.open(map, markerLudsChurch)
+    });   
  }
         
