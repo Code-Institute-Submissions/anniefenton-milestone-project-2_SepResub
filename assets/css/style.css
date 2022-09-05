@@ -114,15 +114,15 @@
 
 /*--End of code from W3 Schools-*/
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   #secondary-text {
-    font-size: 0.3em;
+    font-size: 0.4em;
   }
 }
 
-@media only screen and (min-width: 701px) {
+@media only screen and (min-width: 601px) {
   #secondary-text {
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
 }
 
@@ -131,6 +131,7 @@
     font-size: 2.5em;
   }
 }
+
 
 .review-name {
   font-family: 'Noto Sans', sans-serif;
@@ -285,8 +286,8 @@ form {
 }
 
 .btn {
-  color: #b8e7e9;
-  border: 1px solid #b8e7e9;
+  color: #1ba1a6;
+  border: 3px solid #1eb5ba;
 }
 
 /*-----------------------------------Hikes.html--*/

@@ -295,7 +295,7 @@ Another interesting bug that was resolved was when developing the `callAlert()` 
 
 ### **Media**
 
-The developer would like to thank Jeremy Bishop, Ales Krivec, Tyler Lastovich, Andrea Molina and Ryan Schroeder for their images used on the site which were accessed from Unsplash.
+The developer would like to thank John Towner, Jeremy Bishop, Ales Krivec, Tyler Lastovich, Andrea Molina and Ryan Schroeder for their images used on the site which were accessed from Unsplash.
 
 ### **Code**
 
