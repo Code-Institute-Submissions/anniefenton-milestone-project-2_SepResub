@@ -16,14 +16,19 @@ function initMap() {
         zoom: 5,
         center: paveyArk,
     });
+    
 
     const markerYrWyddfa = new google.maps.Marker({
         position: yrWyddfa,
         map: map,
         title: "Yr Wyddfa (Snowdon), Wales, Intermediate, 6 hours",
         label: "A",
-        onclick: href="https://www.visitsnowdonia.info/snowdon-walking-routes"
     });
+
+    google.maps.event.addListener(markerYrWyddfa, 'click', function() {
+        var markerYrWyddfa = this;
+        alert(this.title);
+    });   
 
     const markerCheddarGorge = new google.maps.Marker({
         position: cheddarGorge,
