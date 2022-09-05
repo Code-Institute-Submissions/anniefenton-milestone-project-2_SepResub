@@ -25,9 +25,12 @@ function initMap() {
         label: "A",
     });
 
+    var infoWindow = new google.maps.InfoWindow({
+        content: "<div style='float:left'><img style='height:100px' src='assets/images/snowden.jpg'></div><div style='float:right; padding: 10px;'><b>Yr Wyddfa (Snowden)</b><br>Wales<br>Intermediate<br>6 hours</div>"
+    });
+
     google.maps.event.addListener(markerYrWyddfa, 'click', function() {
-        var markerYrWyddfa = this;
-        alert(this.title);
+        infoWindow.open(map, markerYrWyddfa)
     });   
 
     const markerCheddarGorge = new google.maps.Marker({
