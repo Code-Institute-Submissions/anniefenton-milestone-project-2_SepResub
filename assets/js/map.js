@@ -1,3 +1,7 @@
+// infoWindow functionaility written with help from JTechniques at https://www.bing.com/videos/search?q=infowindow+google+maps&&view=detail&mid=0CDD175F89AB12DA447C0CDD175F89AB12DA447C&&FORM=VRDGAR&ru=%2Fvideos%2Fsearch%3Fq%3Dinfowindow%2Bgoogle%2Bmaps%26FORM%3DHDRSC4
+// maps functionality written with help from Google Maps JavaScript API documentation https://developers.google.com/maps/documentation/javascript
+
+
 function initMap() {
 
     const yrWyddfa = { lat: 53.069, lng: -4.076 };

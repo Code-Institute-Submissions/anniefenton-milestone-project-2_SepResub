@@ -257,7 +257,7 @@ Another interesting bug that was resolved was when developing the `callAlert()` 
 ### **Programmes, Libraries and Frameworks**
 
 - **Balsamiq** to create wireframes for design concepts
-- **Bootstrap 5.0** for columns and grids layouts, and route cards on the 'Hikes' page. Also for the form on the 'Designed' page.
+- **Bootstrap 5.1.3** for columns and grids layouts, and route cards on the 'Hikes' page. Also for the form on the 'Designed' page.
 - **Email JS** to link the contact form with an email account to collect form responses
 - **Font Awesome** for icons on pages and in the footer
 - **Git** for verson control
