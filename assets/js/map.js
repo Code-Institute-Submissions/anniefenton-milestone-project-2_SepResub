@@ -73,7 +73,7 @@ function initMap() {
     });
 
     var infoQuiraing = new google.maps.InfoWindow({
-        content: "<div style='float:left'><img style='height:100px' src='assets/images/pavey.jpg'></div><div style='float:right; padding: 10px;'><b>Quiraing</b><br>England<br>Expert<br>8 hours</div>"
+        content: "<div style='float:left'><img style='height:100px' src='assets/images/quiraing.jpg'></div><div style='float:right; padding: 10px;'><b>Quiraing</b><br>Scotland<br>Intermediate<br>5 hours</div>"
     });
 
     google.maps.event.addListener(markerQuiraing, 'click', function() {
@@ -84,12 +84,12 @@ function initMap() {
     const markerGiantsCauseway = new google.maps.Marker({
         position: giantsCauseway,
         map: map,
-        title: "The Causeway Coast Path, Northern Ireland, Novice, 2 hours",
+        title: "The Giant's Causeway Coast Path, Northern Ireland, Novice, 2 hours",
         label: "E"
     });
 
     var infoGiants = new google.maps.InfoWindow({
-        content: "<div style='float:left'><img style='height:100px' src='assets/images/pavey.jpg'></div><div style='float:right; padding: 10px;'><b>Giants Causeway</b><br>England<br>Expert<br>8 hours</div>"
+        content: "<div style='float:left'><img style='height:100px' src='assets/images/giants.jpg'></div><div style='float:right; padding: 10px;'><b>The Giant's Causeway Coast Path</b><br>Northern Ireland<br>Novice<br>2 hours</div>"
     });
 
     google.maps.event.addListener(markerGiantsCauseway, 'click', function() {
@@ -105,7 +105,7 @@ function initMap() {
     });
     
     var infoSouth = new google.maps.InfoWindow({
-        content: "<div style='float:left'><img style='height:100px' src='assets/images/pavey.jpg'></div><div style='float:right; padding: 10px;'><b>South Downs Way</b><br>England<br>Expert<br>8 hours</div>"
+        content: "<div style='float:left'><img style='height:100px' src='assets/images/south.jpg'></div><div style='float:right; padding: 10px;'><b>The South Downs Way</b><br>England<br>Novice<br>2 hours</div>"
     });
 
     google.maps.event.addListener(markerSouthDownsWay, 'click', function() {
@@ -121,7 +121,7 @@ function initMap() {
     });
 
     var infoCarr = new google.maps.InfoWindow({
-        content: "<div style='float:left'><img style='height:100px' src='assets/images/pavey.jpg'></div><div style='float:right; padding: 10px;'><b>Carrauntoohil</b><br>England<br>Expert<br>8 hours</div>"
+        content: "<div style='float:left'><img style='height:100px' src='assets/images/carr.jpg'></div><div style='float:right; padding: 10px;'><b>Carrauntoohil Hike</b><br>Republic of Ireland<br>Expert<br>7 hours</div>"
     });
 
     google.maps.event.addListener(markerCarrauntoohil, 'click', function() {
@@ -137,14 +137,14 @@ function initMap() {
     });
 
     var infoPen = new google.maps.InfoWindow({
-        content: "<div style='float:left'><img style='height:100px' src='assets/images/pavey.jpg'></div><div style='float:right; padding: 10px;'><b>Pen Y Fan</b><br>England<br>Expert<br>8 hours</div>"
+        content: "<div style='float:left'><img style='height:100px' src='assets/images/pen.jpg'></div><div style='float:right; padding: 10px;'><b>Pen Y Fan</b><br>Wales<br>Novice<br>3 hours</div>"
     });
 
     google.maps.event.addListener(markerPenYFan, 'click', function() {
         infoPen.open(map, markerPenYFan)
     }); 
 
-// Ben Navid map information
+// Ben Nevis map information
     const markerBenNevis = new google.maps.Marker({
         position: benNevis,
         map: map,
@@ -153,7 +153,7 @@ function initMap() {
     });
 
     var infoBen = new google.maps.InfoWindow({
-        content: "<div style='float:left'><img style='height:100px' src='assets/images/pavey.jpg'></div><div style='float:right; padding: 10px;'><b>Ben Nevis</b><br>England<br>Expert<br>8 hours</div>"
+        content: "<div style='float:left'><img style='height:100px' src='assets/images/ben.jpg'></div><div style='float:right; padding: 10px;'><b>Ben Nevis</b><br>Scotland<br>Expert<br>8 hours</div>"
     });
 
     google.maps.event.addListener(markerBenNevis, 'click', function() {
@@ -169,7 +169,7 @@ function initMap() {
     });
 
     var infoLud = new google.maps.InfoWindow({
-        content: "<div style='float:left'><img style='height:100px' src='assets/images/pavey.jpg'></div><div style='float:right; padding: 10px;'><b>Lud's Church</b><br>England<br>Expert<br>8 hours</div>"
+        content: "<div style='float:left'><img style='height:100px' src='assets/images/luds.jpg'></div><div style='float:right; padding: 10px;'><b>Lud's Church</b><br>England<br>Novice<br>1 hour</div>"
     });
 
     google.maps.event.addListener(markerLudsChurch, 'click', function() {
