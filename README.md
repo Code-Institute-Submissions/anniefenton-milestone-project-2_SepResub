@@ -85,7 +85,7 @@ As a _traveller_ I want:
 
 ### **Home page**
 
-The main purpose of the home page is to quickly inform the user about the organisation and to outline the different features on the site. Upon entering the site the user will see a hero-image with the organisation's name and brand clearly visible. When scrolling down the user will find out who the organisation are and what they do, as pictured below.
+The main purpose of the home page is to quickly inform the user about the organisation and to outline the different features on the site. Upon entering the site the user will see a hero-image with the organisation's name and brand clearly visible. When scrolling down the user will be greeted with a 'good morning/afternoon/evening' depending on the time of day they are accessing the site. The will be able to find out who the organisation are and what they do, as pictured below.
 
 ![Screenshot of 'About Us' section on the Home page](assets/images/about-us.jpg)
 
@@ -93,7 +93,7 @@ User reviews of the site are also featured in a section separated by a secondary
 
 ### **Hikes page**
 
-This is the main feature of the _Trek Ahead_ site. At the top of this page is an interactive map with fixed markers that, when hovered over, produce labels that say the hike's name, loction, difficulty level, and time it would take to complete the route. The map is fully scrollable across all devices however the marker labels cannot be seen when using a tablet or mobile device. To counteract this limitation, on the same page underneath 'Routes' there is a list of the featured hiking routes and their corresponding map marker letter, so users will still be able to see the location of the route on the map. 
+This is the main feature of the _Trek Ahead_ site. At the top of this page is an interactive map with fixed markers that, when clicked, produce infoWindows that display an image, the hike's name, loction, difficulty level, and time it would take to complete the route. The map is fully scrollable and the markers are cliackable across all devices.
 
 ![Screenshot of map and markers on the 'Hikes' page](assets/images/map-marker.jpg)
 
@@ -125,8 +125,7 @@ The footer bar is similar in it's simplicity. On the left side is the brand's na
 
 ### **Features left to implement**
 
-- Google Maps 'Places API' on the 'Hikes' page so the users can see more information about the route when clicking on the marker. 
-- On the 'Hikes' page - a way to link the markers to the route cards so when the marker is clicked/tapped, the user is directed to the corresponding route card.
+- A system for the user to easily post reviews on the 'hikes' page.
 
 ## Design Choices
 
